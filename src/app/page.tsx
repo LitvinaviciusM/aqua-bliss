@@ -18,6 +18,9 @@ const ShowHeroSlider = async () => {
     collection: collections.hero_slider,
   });
   const { products } = sliderImages;
+
+  console.log('products > ', products);
+
   return <HeroSlider products={products} />;
 };
 
